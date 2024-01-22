@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <h1>SVT</h1>
+        </div>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Services</a>
+            <a href="#">À propos</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+  
+    <div class="color">
+        <h1 class="T1">Science et vie de la terre</h1>
+        <h2 class="enveloppe" onclick="toggleContenu()">Thème 1 : la terre, la vie et l'évolution du vivant.</h2>
+        <div class="contenu" id="contenu">
+          <div class="part">
+          <ul>
+            <li><a href="X.html">Le neurone</a></li>
+            <li><a href="Y.html">Le muscle</a></li>
+            <li><a href="Z.html">Les voies aérobies et anaérobies</a></li>
+            <li><a href="A.html">Le diabète</a></li>
+          </ul>
+        </div>
+        </div>
+
+        <h2 onclick="toggleContenu()">Thème 2 : Enjeux contemporains de la planète.</h2>
+        <div class="contenu" id="contenu">
+            <p>Autre contenu déroulant ici...</p>
+        </div>
+
+        <h2 onclick="toggleContenu()">Thème 3 : le corps humain et la santé.</h2>
+        <div class="contenu" id="contenu">
+            <p>Encore un autre contenu déroulant ici...</p>
+        </div>
+    
+<h2 onclick="toggleContenu()">Travaux pratiques</h2>
+        <div class="contenu" id="contenu">
+            <p>Autre contenu déroulant ici...</p>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
