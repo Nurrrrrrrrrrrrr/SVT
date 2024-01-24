@@ -305,8 +305,8 @@ footer {
     list-style-type: none;
 }
 @media (max-width: 800px) {
-    .color {
-     margin-top: 200px;
+    .part {
+     margin-top: 20px;
     }
     .footer-top {
         display: flex;
