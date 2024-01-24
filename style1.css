@@ -306,8 +306,13 @@ footer {
 }
 @media (max-width: 800px) {
     .part {
-     margin-top: 20px;
+     margin-top: 40px;
     }
+
+    .footer {
+        margin-top: 100px;
+    }
+    
     .footer-top {
         display: flex;
         flex-direction: column;
