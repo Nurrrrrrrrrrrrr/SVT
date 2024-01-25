@@ -88,9 +88,12 @@ html {
   }
 @media (max-width: 800px) {
     body {
-        max-width: 1000px;
+        max-width: 900px;
     }
     p, ul, ol {
+        max-width: 800px;
+    }
+    .division { 
         max-width: 800px;
     }
 }
