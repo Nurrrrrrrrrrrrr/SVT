@@ -86,3 +86,8 @@ html {
     max-width: 1000px;
     font-size: 13px;
   }
+@media (max-width: 800px) {
+    p, ul, ol {
+        max-width: 800px;
+    }
+}
