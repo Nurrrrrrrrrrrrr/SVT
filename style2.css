@@ -91,9 +91,9 @@ html {
         max-width: 900px;
     }
     p, ul, ol {
-        max-width: 800px;
+        max-width: 600px;
     }
     .division { 
-        max-width: 800px;
+        max-width: 600px;
     }
 }
