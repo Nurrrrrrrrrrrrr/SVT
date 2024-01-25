@@ -305,7 +305,7 @@ footer {
     list-style-type: none;
 }
 @media (max-width: 800px) {
-    .contenu {
+    .haut {
      margin-top: 40px;
     }
 
